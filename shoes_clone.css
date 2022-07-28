@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Baloo+Bhaina+2&family=Baloo+Da+2:wght@600&family=Crete+Round&family=Fira+Sans&family=Poppins:wght@100;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://html.design/demo/pullo/images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo img {
+  width: 13vw;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo>li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+li {
+  display: inline;
+  margin: 0vw 3vw;
+}
+a:hover
+{
+  color: blueviolet;
+  transition: all 0.4s;
+}
+
+.sidebar {
+  height: 80vh;
+  width: 21vw;
+  position: relative;
+  margin: 0vh -7vh;
+}
+
+.p_Tag {
+  color: gray;
+  position: absolute;
+  top: 1vh;
+  left: 6vw;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.inside_sidebar {
+  height: 9vh;
+  width: 5vw;
+  position: absolute;
+  top: 1;
+  position: absolute;
+  top: 30vh;
+  border: 2px solid white;
+  left: 7vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#span_inside_sidebar {
+  font-size: 21px;
+  color: white;
+}
+
+.inside_sidebar1 {
+  position: absolute;
+  top: 63vh;
+  left: 6vw;
+}
+
+.subheading {
+font-family: 'Poppins', sans-serif;
+  height: 58vh;
+  width: 31vw;
+  position: absolute;
+  top: 29.3vh;
+  left: 18vw;
+}
+.p1_Tag
+{
+  font-size: 31px;
+  letter-spacing: 5px;
+  color: #ff4e5b;
+  margin-left: 2vw;
+}
+.p2_Tag
+{
+  font-size: 18px;
+  letter-spacing: 5px;
+  margin-left: 2vw;
+  margin-top: 2vh;
+}
+.word1
+{
+  color: #a38158;
+}
+.word2
+{
+  color: #5f6e89;
+}
+.word3
+{
+  color: #e6ebe2;
+}
+.btn
+{
+  padding: 2vh 5vh;
+  margin: 8vh 4vh;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.btn1
+{
+  background-color:#ff4e5b;
+  color:white;
+}
+.btn2
+{
+  color:#ff4e5b;
+  background-color:white;
+}
+.btn1:hover
+{
+  color:#ff4e5b;
+  background-color:white;
+}
+.btn2:hover
+{
+  background-color:#ff4e5b;
+  color:white;
+}
+.shoe_image
+{
+    width: 62vw;
+}
+.Shoe
+{
+  position: absolute;
+top: 13vh;
+right: -17vh;
+}
